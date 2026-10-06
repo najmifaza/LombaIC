@@ -1,40 +1,55 @@
-# PROPOSAL PROYEK
-## INFORMATICS CHAMPIONSHIP x CATALYST HACKATHON 2026
-**Tema:** *Digital Solutions for Everyday Problems*
+# PROPOSAL INOVASI DIGITAL
+### INFORMATICS CHAMPIONSHIP x CATALYST HACKATHON 2026
+**Tema:** Digital Solutions for Everyday Problems
 
 ---
 
-### 1. INFORMASI TIM
-- **Nama Tim:** kata najmi gini doang sambil tidur bisa
-- **Ketua Tim:** Adridinan Najmi Faza (Informatika, Universitas Jenderal Soedirman)
-- **Anggota Tim:**
-  1. Timotius Willy Narendra (Informatika, Universitas Jenderal Soedirman)
-  2. Fardizza Finda Rahman (Informatika, Universitas Jenderal Soedirman)
+<p align="center">
+  <img src="./logo_unsoed.png" alt="Logo Universitas Jenderal Soedirman" width="180"/>
+</p>
+
+# KILASTUGAS
+### *Smart Actionable Task Breakdown & Micro-Pacing for Students*
+> *"Ubah Beban Tugas Kompleks Menjadi Aksi Harian yang Jelas, Ringan, dan Tereksekusi"*
+
+**Disusun oleh: Tim kata najmi gini doang sambil tidur bisa**
+- Adridinan Najmi Faza (Ketua Tim)
+- Timotius Willy Narendra
+- Fardizza Finda Rahman
+
+**FAKULTAS TEKNIK**  
+**UNIVERSITAS JENDERAL SOEDIRMAN**  
+**PURWOKERTO**  
+**2026**  
 
 ---
 
-### 2. JUDUL / NAMA PROYEK
-**KilasTugas: Smart Actionable Task Breakdown & Micro-Pacing Web Platform**
+### 1. DESKRIPSI PERMASALAHAN
+
+#### 1.1 Fenomena Nyata Penugasan Mahasiswa
+Di jenjang perguruan tinggi, mahasiswa rata-rata menempuh 4 hingga 7 mata kuliah aktif per semester. Setiap mata kuliah membebankan penugasan dengan karakteristik beragam: penyusunan makalah riset, laporan praktikum laboratorium, proyek pemrograman perangkat lunak, telaah jurnal ilmiah, hingga presentasi kelompok.
+
+Tuntutan tersebut sering kali diserahkan oleh pengajar dalam bentuk silabus atau deskripsi instruksi yang panjang, padat, dan abstrak (misal: *"Susun laporan akhir perancangan jaringan VLSM 5 bab lengkap dengan simulasi Packet Tracer"*). Ketika beban tugas rumit datang bersamaan, mayoritas mahasiswa mengalami kebuntuan kognitif. Fenomena psikologis ini dikenal sebagai **Task Paralysis** atau **Overwhelm Freeze**: kondisi di mana seseorang justru tidak memulai pengerjaan bukan karena malas atau abai, melainkan karena otak mengalami *cognitive overload* dan bingung menentukan titik awal tindakan (*"where to start"*).
+
+#### 1.2 Gap Analisis Alat Manajemen Tugas Konvensional
+Mahasiswa saat ini telah menggunakan berbagai platform produktivitas populer (Notion, Google Keep, Todoist, Trello, Google Tasks). Namun instrumen-instrumen tersebut menyisakan *critical gap*:
+1. **Hanya Bersifat Pasif (Deadline-Centric, Bukan Action-Centric):** Aplikasi mencatat nama tugas dan tanggal tenggat, namun menyerahkan 100% beban pemecahan langkah kerja kepada pengguna yang sedang kewalahan kognitif.
+2. **Ketiadaan Micro-Pacing:** Pengguna tidak dipandu secara harian berapa porsi kerja aman yang harus dicicil per hari berdasarkan jarak tanggal pengumpulan. Akibatnya timbul ilusi waktu luang semu yang berujung pada *panic working* di malam H-1/H-0.
+3. **Friksi Awal Terlalu Tinggi:** Aplikasi manajemen proyek formal menuntut konfigurasi manual yang rumit (pembuatan database board, tagging, estimasi manual), sehingga energi mahasiswa terkuras sebelum sempat bekerja.
+
+#### 1.3 Rumusan Masalah Utama
+> *"Bagaimana merancang platform digital yang mampu mengeliminasi Task Paralysis pada mahasiswa dengan mentransformasi instruksi tugas kuliah yang panjang menjadi rencana aksi harian yang mikro, konkret, terdistribusi merata, serta terintegrasi langsung dengan mesin fokus eksekusi?"*
 
 ---
 
-### 3. DESKRIPSI PERMASALAHAN
-Mahasiswa sering mengalami penundaan tugas (*procrastination*) dan beban kognitif berlebih (*cognitive overload*). Akar masalah utama di lingkungan akademik sehari-hari mencakup:
-1. **Instruksi Tugas Terlalu Luas & Ambigu:** Tugas kuliah kompleks (laporan lab praktikum, makalah riset, proyek coding) sering kali tidak memiliki panduan langkah kerja yang runtut. Mahasiswa bingung memulai dari mana (*task paralysis*).
-2. **Keterbatasan Aplikasi To-Do Konvensional:** Aplikasi pencatat to-do konvensional hanya menyimpan judul tugas dan deadline akhir tanpa menyediakan breakdown langkah teknis dan durasi realistis.
-3. **Dead-End Scheduling & Panik H-1:** Ketiadaan alokasi target mikro harian menyebabkan akumulasi beban kerja di hari menjelang deadline (*cramming*), berujung pada penurunan mutu akademik dan stres berlebih.
-4. **Hambatan Kolaborasi & Reusable Blueprint:** Ketika satu mahasiswa berhasil menyusun alur kerja tugas yang efektif, cara kerja tersebut tidak dapat dibagikan secara instan ke rekan sekelas lain yang mengerjakan tugas serupa.
-
----
-
-### 4. TARGET USER
+### 2. TARGET USER
 1. **Mahasiswa Aktif:** Khususnya mahasiswa teknik/informatika dan sains yang menghadapi beban tugas berbasis praktikum, penulisan makalah, atau proyek teknis berskala besar.
 2. **Kelompok Belajar & Praktikan Kampus:** Tim mahasiswa yang membutuhkan standardisasi pembagian beban kerja dan target harian yang terukur.
 3. **Pelajar & Akademisi:** Pengguna yang membutuhkan manajemen waktu berbasis micro-tasking untuk mengatasi prokrastinasi.
 
 ---
 
-### 5. SOLUSI YANG DIUSULKAN
+### 3. SOLUSI YANG DIUSULKAN
 KilasTugas menghadirkan platform web produktivitas yang mengubah deskripsi tugas kuliah yang panjang/kompleks menjadi daftar sub-tugas harian konkret (*actionable micro-tasks*) secara instan melalui sistem **Tri-Engine Breakdown**:
 - **Otomasi Breakdown Cerdas:** Menganalisis instruksi tugas dan memecahnya menjadi langkah kerja berdurasi realistis (25–45 menit) yang dipetakan secara proporsional dari hari pendaftaran hingga sebelum deadline.
 - **Visual Micro-Pacing:** Indikator visual real-time yang memantau apakah progres belajar mahasiswa *On Track*, *Behind Schedule*, atau *Overdue* berdasarkan target tanggal sub-tugas harian.
@@ -42,11 +57,11 @@ KilasTugas menghadirkan platform web produktivitas yang mengubah deskripsi tugas
 - **One-Click Blueprint Cloning:** Kemampuan mengekspor dan membagikan skema langkah tugas kepada mahasiswa lain melalui URL instan `/p/:id` tanpa registrasi akun yang rumit.
 
 ![Alur Solusi KilasTugas](./Diagram_KilasTugas-1.%20Alur%20Solusi%20KilasTugas%20(1).jpg)  
-*Gambar 1: Alur Kerja dan Mekanisme Solusi KilasTugas*
+*Gambar 1: Alur Kerja dan Solusi Sistem KilasTugas*
 
 ---
 
-### 6. GAMBARAN FITUR UTAMA
+### 4. GAMBARAN FITUR UTAMA
 1. **Tri-Engine Task Breakdown:**
    - *Smart Cache Lookup:* Pencocokan tugas serupa pada database relasional untuk respon instan (<20ms).
    - *AI Inference Breakdown:* Mesin inferensi AI terstruktur untuk dekomposisi langkah tugas kompleks menjadi format JSON mikro-langkah.
@@ -68,7 +83,7 @@ KilasTugas menghadirkan platform web produktivitas yang mengubah deskripsi tugas
 
 ---
 
-### 7. TEKNOLOGI YANG DIRENCANAKAN
+### 5. TEKNOLOGI YANG DIRENCANAKAN
 - **Frontend Layer:**
   - Framework: React 18 + Vite 5 (SPA ringan, output <90KB gzip)
   - Styling: Tailwind CSS (Clean Editorial Light Theme)
@@ -91,8 +106,8 @@ KilasTugas menghadirkan platform web produktivitas yang mengubah deskripsi tugas
 
 ---
 
-### 8. DAMPAK / MANFAAT YANG DIHARAPKAN
-1. **Penurunan Beban Kognitif Mahasiswa:** Menghilangkan kebingungan langkah awal (*blank page syndrome*) saat memulai tugas kuliah berskala besar.
+### 6. DAMPAK / MANFAAT YANG DIHARAPKAN
+1. **Penurunan Beban Kognitif Mahasiswa:** Menghilangkan kebingungan langkah awal (*blank page syndrome* / *Task Paralysis*) saat memulai tugas kuliah berskala besar.
 2. **Pemberantasan Budaya Sistem Kebut Semalam (SKS):** Mendorong distribusi pengerjaan tugas secara bertahap dan teratur setiap hari melalui micro-deadlines.
 3. **Efisiensi Waktu & Kolaborasi Akademik:** Memfasilitasi pertukaran standar langkah kerja yang terbukti efektif antar mahasiswa, memangkas waktu perencanaan tugas kelompok.
 4. **Aksesibilitas Tanpa Hambatan:** Pengguna dapat langsung memanfaatkan aplikasi tanpa wajib login rumit (*guest-mode session*) dengan latensi responsif di berbagai perangkat (desktop, tablet, mobile).
